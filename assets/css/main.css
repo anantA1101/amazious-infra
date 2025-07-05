@@ -3106,6 +3106,7 @@ input, select, textarea {
 		display: -webkit-inline-flex;
 		display: -ms-inline-flex;
 		display: inline-flex;
+		display: none !important;
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		-ms-user-select: none;
