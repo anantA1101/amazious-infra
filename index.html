@@ -116,25 +116,25 @@
 							</section>
 					</div>
 				
-				<!-- Footer -->
+					<!-- Footer -->
 					<footer id="footer">
-						<!-- Contact Section Title -->
-						<h2 style="text-align:center; padding-top: 3rem;">Contact Details</h2>
-
+						<section>
+						<h2 style="text-align:center; padding-bottom: 2rem;">Contact Details</h2>
+						</section>
 						<section>
 							<form method="POST" action="https://formspree.io/f/myzjawpn">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<textarea name="message" id="message" rows="3" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
@@ -142,6 +142,7 @@
 								</ul>
 							</form>
 						</section>
+
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
